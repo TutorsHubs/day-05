@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.form-container {
+    height: auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container form {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.or {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.or div {
+    min-width: 130px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.or p {
+    margin: 0 10px;
+}
+
+.input-group {
+    width: 300px;
+    position: relative;
+}
+
+.input-group > input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.input-group > img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    /* z-index: 2; */
+}
+
+.form-container form .btn {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.google-btn {
+    width: 100%;
+    background-color: #fff;
+    color: #111;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.google-btn img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
