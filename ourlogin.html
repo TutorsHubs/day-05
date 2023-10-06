@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="stylesheet" href="ourlogin.css" />
+    </head>
+    <body>
+        <!-- grid of 2 columns -->
+        <div class="container">
+            <div class="details">
+                <h1>Company Name</h1>
+                <div>
+                    <img src="/assets/8740804.jpg" alt="Computer image" />
+                </div>
+                <h1>Welcome</h1>
+            </div>
+
+            <!-- display flex -->
+            <div class="form-container">
+                <form>
+                    <button class="google-btn" type="button">
+                        <img class="icon" src="assets/google-icon.svg" />
+                        Sign in with Google
+                    </button>
+
+                    <div class="or">
+                        <div></div>
+                        <p>or</p>
+                        <div></div>
+                    </div>
+
+                    <!-- position relative -->
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            placeholder="Enter Username..."
+                            required
+                        />
+                        <!-- position absolute -->
+                        <img
+                            class="icon"
+                            src="/assets/user-solid.svg"
+                            alt="User icon"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <input
+                            type="password"
+                            placeholder="Enter Password..."
+                            required
+                        />
+                        <img
+                            class="icon"
+                            src="/assets/lock-solid.svg"
+                            alt="Lock icon"
+                        />
+                    </div>
+
+                    <p class="remember">
+                        <input type="checkbox" />
+                        Remember me
+                    </p>
+
+                    <button class="btn" type="submit">Log In</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
